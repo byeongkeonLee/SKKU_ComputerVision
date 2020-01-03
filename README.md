@@ -17,7 +17,6 @@ Next, it performs Non-maximum-suppression.
 
 Finally, it performs Corner detection.
 
-![4](https://user-images.githubusercontent.com/43103079/71712986-089aa980-2e4b-11ea-8e33-614bf9931564.png)
 
 
 
@@ -37,12 +36,9 @@ In CV_A2/A2_homography.py, the orb matcher is implemented.
 
 Then, it performs image matching with two method, normalization and RANSAC.
 
-![4](https://user-images.githubusercontent.com/43103079/71713302-814e3580-2e4c-11ea-8d48-e4a17b4da351.png)
 
 Finally, it is used to make a panorama image by two images. This program find similar features in image and connect it automatically.
 
-![5](https://user-images.githubusercontent.com/43103079/71713303-814e3580-2e4c-11ea-92f9-2f913778cdbb.png)
 
 Moreover, it interpolate the two image.
 
-![6](https://user-images.githubusercontent.com/43103079/71713304-814e3580-2e4c-11ea-8b7f-34b5841ceeb3.png)

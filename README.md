@@ -24,12 +24,19 @@ Finally, it performs Corner detection.
 ## Project 2
 
 In CV_A2/A2_2d_transformation.py show an image and movement by transformation matrix. It is strong when the image enlarge. 
+![1](https://user-images.githubusercontent.com/43103079/71713298-80b59f00-2e4c-11ea-8737-bb120cce2e6f.png)
 
 Below is a table how to control the smile face object.
+![2](https://user-images.githubusercontent.com/43103079/71713299-80b59f00-2e4c-11ea-8843-4158f98667bf.png)
 
 In CV_A2/A2_homography.py, the orb matcher is implemented. 
+![3](https://user-images.githubusercontent.com/43103079/71713301-80b59f00-2e4c-11ea-9efa-0d95e7d28858.png)
 
 Then, it performs image matching with two method, normalization and RANSAC.
+![4](https://user-images.githubusercontent.com/43103079/71713302-814e3580-2e4c-11ea-8d48-e4a17b4da351.png)
 
+Finally, it is used to make a panorama image by two images. This program find similar features in image and connect it automatically.
+![5](https://user-images.githubusercontent.com/43103079/71713303-814e3580-2e4c-11ea-92f9-2f913778cdbb.png)
 
-Finally, it is used to make a panorama image by two images. Moreover, it interpolate the two image.
+Moreover, it interpolate the two image.
+![6](https://user-images.githubusercontent.com/43103079/71713304-814e3580-2e4c-11ea-8b7f-34b5841ceeb3.png)

@@ -1,5 +1,11 @@
 # SKKU_ComputerVision
 
+### prerequisite
+
+numpy, opencv2
+
+pip install numpy
+
 ## Project 1
 
 It performs Gaussian Blur. Sigma value 1, 6, 11 and kernel size 5, 11, 17 are executed.

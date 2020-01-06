@@ -23,6 +23,7 @@ Next, it performs Non-maximum-suppression. Each point verify for gradient direct
 
 Finally, it performs Corner detection by doing corner detection, non-maximum-suppression.
 
+![7](https://user-images.githubusercontent.com/43103079/71826606-a3acb100-30e1-11ea-88be-99535e94a5ef.png)
 
 
 

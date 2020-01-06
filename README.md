@@ -49,3 +49,13 @@ Finally, it is used to make a panorama image by two images. This program find si
 
 Moreover, it interpolate the two image.
 
+
+## Project 3
+
+This project is to draw Epipolar line. My program calculates Translation Matrix with description pointer already offered. Norm is normalize [-1,1] for image x-axis and y-axis. Mine is similar to RANSAC. Randomly choose 3 descriptors and calculate. If is worse than Norm, Norm will be chosen.
+
+After calculating, draw epipolar line like next figure.
+
+![1](https://user-images.githubusercontent.com/43103079/71827061-bc699680-30e2-11ea-97f7-510436b347c9.png)
+
+Last project is to search same images. The number of image is 1,000 and every 4 images have similar object. Hence, the number of image set is 250. In this project, if a image is chosen randomly, the program should find similar image.

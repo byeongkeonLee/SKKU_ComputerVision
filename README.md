@@ -4,7 +4,8 @@
 
 numpy, opencv2
 
-pip install numpy
+    pip install numpy
+    pip install opencv-python
 
 ## Project 1
 

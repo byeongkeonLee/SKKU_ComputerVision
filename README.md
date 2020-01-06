@@ -43,11 +43,14 @@ In CV_A2/A2_homography.py, the orb matcher is implemented.
 
 Then, it performs image matching with two method, normalization and RANSAC.
 
+![2](https://user-images.githubusercontent.com/43103079/71828736-4830f200-30e6-11ea-9726-435a299d05ef.png)
+
+![3](https://user-images.githubusercontent.com/43103079/71828738-48c98880-30e6-11ea-80df-071a2c1a0671.png)
 
 Finally, it is used to make a panorama image by two images. This program find similar features in image and connect it automatically.
+Then, it interpolates the two image.
 
-
-Moreover, it interpolate the two image.
+![4](https://user-images.githubusercontent.com/43103079/71828739-48c98880-30e6-11ea-9cb8-e3b23f7cfabb.png)
 
 
 ## Project 3

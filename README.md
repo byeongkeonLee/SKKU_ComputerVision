@@ -2,20 +2,19 @@
 
 ## Project 1
 
-It performs Gaussian Blur.
+It performs Gaussian Blur. Sigma value 1, 6, 11 and kernel size 5, 11, 17 are executed.
 
 ![1](https://user-images.githubusercontent.com/43103079/71712110-25cd7900-2e47-11ea-9ece-7c4b84a2f809.png)
 
-Next, it performs Edge Detection.
+Next, it performs Edge Detection for Gaussian Blurred image. 1D Edge detection kernel is used to detect horizontally and vertically.
 
 ![2](https://user-images.githubusercontent.com/43103079/71712984-089aa980-2e4b-11ea-8a16-c574f234579e.png)
 
-Next, it performs Non-maximum-suppression.
-
+Next, it performs Non-maximum-suppression. Each point verify for gradient direction which is descrted as 8 dirs. If gradient direction's image value is larger than center, the pixel is subject to be suppressed.
 
 ![3](https://user-images.githubusercontent.com/43103079/71712985-089aa980-2e4b-11ea-988d-b6719ec87c32.png)
 
-Finally, it performs Corner detection.
+Finally, it performs Corner detection by doing corner detection, non-maximum-suppression.
 
 
 
